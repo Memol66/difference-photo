@@ -1,0 +1,21 @@
+import cv2
+
+# File paths for the images
+image1_path = 'image1.jpg'
+image2_path = 'image2.jpg'
+
+# Read the images
+image1 = cv2.imread(image1_path)
+image2 = cv2.imread(image2_path)
+
+# Check the dimensions of both images
+if image1.shape == image2.shape:
+    # Calculate the difference
+    difference = cv2.absdiff(image1, image2)
+    
+    # Display the difference
+    cv2.imshow('Difference', difference)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+else:
+    print('Error: Images are not the same size.')
