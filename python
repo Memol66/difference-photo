@@ -1,10 +1,10 @@
 import cv2
 
-# File paths for the images
+# File paths for the images:
 image1_path = 'image1.jpg'
 image2_path = 'image2.jpg'
 
-# Read the images
+# Read the images:
 image1 = cv2.imread(image1_path)
 image2 = cv2.imread(image2_path)
 
