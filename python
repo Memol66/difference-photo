@@ -1,6 +1,6 @@
 import cv2
 
-# File paths for the images
+# File paths for the images0021
 image1_path = 'image1.jpg'
 image2_path = 'image2.jpg'
 
