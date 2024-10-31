@@ -1,4 +1,4 @@
-# 00000000000000
+# 01
 import cv2
 # File paths for the images
 image1_path = 'image1.jpg'
